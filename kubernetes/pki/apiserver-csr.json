@@ -1,0 +1,35 @@
+{
+    "CN": "kube-apiserver",
+    "hosts": [
+      "10.96.0.1",
+      "127.0.0.1",
+      "192.168.56.250",
+      "192.168.56.101",
+      "192.168.56.102",
+      "192.168.56.103",
+      "192.168.56.104",
+      "192.168.56.105",
+      "192.168.56.109",
+      "192.168.56.110",
+      "192.168.56.111",
+      "192.168.56.112",
+      "kubernetes",
+      "kubernetes.default",
+      "kubernetes.default.svc",
+      "kubernetes.default.svc.cluster",
+      "kubernetes.default.svc.cluster.local"
+    ],
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "names": [
+        {
+            "C": "CN",
+            "L": "BeiJing",
+            "ST": "BeiJing",
+            "O": "Kubernetes",
+            "OU": "Kubernetes"
+        }
+    ]
+}

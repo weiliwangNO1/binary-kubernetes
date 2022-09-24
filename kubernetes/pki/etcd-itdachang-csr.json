@@ -1,0 +1,25 @@
+{
+    "CN": "etcd-itdachang",
+    "key": {
+        "algo": "rsa",
+        "size": 2048
+    },
+    "hosts": [  
+        "127.0.0.1",
+        "k8s-master1",
+        "k8s-master2",
+        "k8s-master3",
+        "192.168.56.101",
+        "192.168.56.102",
+        "192.168.56.103"
+    ],
+    "names": [
+        {
+            "C": "CN",
+            "L": "beijing",
+            "O": "etcd",
+            "ST": "beijing",
+            "OU": "System"
+        }
+    ]
+}
